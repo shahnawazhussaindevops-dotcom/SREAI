@@ -1,0 +1,33 @@
+# ---- Python / backend ----
+backend/venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+backend/.secret_key
+backend/sreai.db
+*.db
+
+# ---- Node / frontend ----
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env.local
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+
+# ---- logs / scratch ----
+*.log
+dev-server*.log
+frontend/eslint*.txt
+frontend/tsconfig.tsbuildinfo
+
+# ---- env / secrets ----
+.env
+.env.*
+!.env.example
+
+# ---- editor / OS ----
+.DS_Store
+Thumbs.db
+.vercel
