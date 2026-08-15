@@ -33,3 +33,4 @@ frontend/.env.example
 Thumbs.db
 .vercel
 .vercel
+.env*

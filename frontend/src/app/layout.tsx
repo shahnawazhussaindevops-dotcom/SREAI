@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "AI SRE Control Tower — Intelligent Site Reliability Platform",
-  description: "AI-powered DevOps and Site Reliability Engineering platform.",
+  title: "SREAI — God Mode Infrastructure Command Center",
+  description:
+    "Ultra-premium AI-powered Site Reliability Engineering platform with real-time monitoring, automated root cause analysis, and a futuristic glassmorphism dashboard.",
 };
 
 export default function RootLayout({
